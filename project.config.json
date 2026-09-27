@@ -6,7 +6,8 @@
     "criticality": "standard",
     "dataClassification": "internal",
     "template": false,
-    "profile": "web-fullstack"
+    "profile": "web-fullstack",
+    "theme": "operations-modern"
   },
   "environments": {
     "local": true,

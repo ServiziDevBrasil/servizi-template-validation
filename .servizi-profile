@@ -1,5 +1,6 @@
 {
   "profile": "web-fullstack",
+  "theme": "operations-modern",
   "initializedBy": "servizi-bootstrap",
   "schemaVersion": 1
 }
