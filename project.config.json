@@ -1,16 +1,34 @@
 {
   "schemaVersion": 1,
   "project": {
-    "name": "servizi-project-template",
+    "name": "servizi-template-validation",
     "owner": "ServiziBrasil",
     "criticality": "standard",
     "dataClassification": "internal",
-    "template": true
+    "template": false,
+    "profile": "web-fullstack"
   },
-  "environments": {"local": true, "test": true, "staging": true, "production": true},
+  "environments": {
+    "local": true,
+    "test": true,
+    "staging": true,
+    "production": true
+  },
   "qualityGates": {
-    "pullRequest": ["typecheck", "lint", "unit", "build"],
-    "staging": ["integration", "e2e", "smoke"],
-    "production": ["smoke", "monitoring"]
+    "pullRequest": [
+      "typecheck",
+      "lint",
+      "unit",
+      "build"
+    ],
+    "staging": [
+      "integration",
+      "e2e",
+      "smoke"
+    ],
+    "production": [
+      "smoke",
+      "monitoring"
+    ]
   }
 }
