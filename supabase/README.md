@@ -1,8 +1,8 @@
 # Supabase
 
-Use esta pasta quando o projeto utilizar Supabase/PostgreSQL.
+Este projeto usa Supabase/PostgreSQL como backend de dados quando configurado.
 
-- `migrations/`: mudanças versionadas de schema.
-- `tests/`: testes SQL/RLS, preferencialmente pgTAP.
-
-Desenvolva migrations localmente e aplique primeiro em staging. Não mantenha dumps com dados reais no Git. Evite alterações estruturais manuais diretamente em produção.
+- `migrations/`: mudanças de schema versionadas.
+- `tests/`: testes SQL/RLS.
+- credenciais reais ficam em secret managers.
+- alterações estruturais devem passar por migration e staging antes de produção.
